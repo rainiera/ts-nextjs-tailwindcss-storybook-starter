@@ -1,0 +1,43 @@
+{
+  "name": "ts-nextjs-tailwindcss-tslint-prettier-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rainiera/ts-nextjs-tailwindcss-tslint-prettier-starter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rainiera/ts-nextjs-tailwindcss-tslint-prettier-starter/issues"
+  },
+  "homepage": "https://github.com/rainiera/ts-nextjs-tailwindcss-tslint-prettier-starter#readme",
+  "dependencies": {
+    "@fullhuman/postcss-purgecss": "^2.0.6",
+    "autoprefixer": "^9.7.4",
+    "isomorphic-unfetch": "^3.0.0",
+    "next": "^9.2.1",
+    "postcss-import": "^12.0.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-markdown": "^4.3.1",
+    "tailwindcss": "^1.2.0",
+    "tslint": "^6.0.0",
+    "tslint-config-standard": "^9.0.0",
+    "tslint-react": "^4.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^13.7.4",
+    "@types/react": "^16.9.21",
+    "prettier": "^1.19.1",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^3.7.5"
+  }
+}
