@@ -1,5 +1,3 @@
-import React from 'react'
-
 interface TagProps {
   name: string
   key: string

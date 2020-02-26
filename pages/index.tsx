@@ -1,6 +1,6 @@
 import fetch from 'isomorphic-unfetch'
+import React from 'react'
 import Tag from './components/Tag'
-import Link from 'next/link'
 
 interface Bloop {
   content: string
@@ -16,20 +16,14 @@ const Index = (props: IndexProps) => (
     <h3 className='mt-5 font-serif text-xl'>
       The journey of a thousand miles begins with a single Bloop
     </h3>
-    <div className='mt-5 mb-5'>
-      <Link href='/'>
-        <a className='mb-20'>New Bloop</a>
-      </Link>
-    </div>
-    {props.bloops.map(bloop => (
-      <>
+    <div className='mt-5 mb-5 text-lg font-bold'>List of Bloops</div>
+    {props.bloops.map((bloop, bi) => (
+      <React.Fragment key={`b-${bi}`}>
         <h1 className='mt-10 mb-3 text-l'>{bloop.content}</h1>
-        {bloop.tags.map(tag => (
-          <>
-            <Tag name={tag} key={tag} />
-          </>
-        ))}{' '}
-      </>
+        {bloop.tags.map((tag, ti) => (
+          <Tag name={tag} key={`t-${ti}`} />
+        ))}
+      </React.Fragment>
     ))}
   </div>
 )
