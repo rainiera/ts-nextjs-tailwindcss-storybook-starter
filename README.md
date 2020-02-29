@@ -1,6 +1,6 @@
 # ts-nextjs-tailwindcss-tslint-prettier-starter
 
-![preview](https://imgur.com/a/7OZoDzP.jpg)
+![preview](https://i.imgur.com/WPnSRSk.png)
 
 An opinionated but unpretentious starter including
 
