@@ -1,11 +1,13 @@
 # ts-nextjs-tailwindcss-tslint-prettier-starter
 
+![preview](https://imgur.com/a/7OZoDzP.jpg)
+
 An opinionated but unpretentious starter including
 
 - Next.js (with TypeScript)
   - A React framework that allows server-side rendering (compared to Create React App, which specializes in client-side rendering)
 - Tailwind CSS
-  - Pairs quite well with the [Headwind](https://marketplace.visualstudio.com/items?itemName=heybourn.headwind) VS Code extension
+  - Productive and maintainable CSS framework that uses utility classes heavily. Pairs quite well with the [Headwind](https://marketplace.visualstudio.com/items?itemName=heybourn.headwind) VS Code extension
 - tslint
   - TODO replace this with eslint because it's been [deprecated](https://github.com/palantir/tslint/issues/4534)
 - prettier
@@ -30,4 +32,11 @@ Used with these related VS Code settings
   "prettier.jsxSingleQuote": true,
   "prettier.semi": false
 }
+```
+
+## Setup
+
+```
+npm install
+npm run dev
 ```
