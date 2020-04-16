@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "storybook": "start-storybook -p 6006 -c .storybook"
   },
   "repository": {
     "type": "git",
@@ -20,24 +21,26 @@
   },
   "homepage": "https://github.com/rainiera/ts-nextjs-tailwindcss-tslint-prettier-starter#readme",
   "dependencies": {
-    "@fullhuman/postcss-purgecss": "^2.0.6",
-    "autoprefixer": "^9.7.4",
+    "@fullhuman/postcss-purgecss": "^2.1.2",
+    "@storybook/cli": "^5.3.18",
+    "autoprefixer": "^9.7.6",
+    "babel-loader": "^8.1.0",
     "isomorphic-unfetch": "^3.0.0",
-    "next": "^9.3.1",
+    "next": "^9.3.5",
     "postcss-import": "^12.0.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-markdown": "^4.3.1",
-    "tailwindcss": "^1.2.0",
-    "tslint": "^6.1.0",
-    "tslint-config-standard": "^9.0.0",
-    "tslint-react": "^4.2.0"
+    "tailwindcss": "^1.2.0"
   },
   "devDependencies": {
-    "@types/node": "^13.9.2",
-    "@types/react": "^16.9.25",
-    "prettier": "^1.19.1",
-    "tslint-config-prettier": "^1.18.0",
-    "typescript": "^3.8.3"
+    "@storybook/preset-typescript": "^3.0.0",
+    "@storybook/react": "^5.3.18",
+    "@types/node": "^13.11.1",
+    "@types/react": "^16.9.34",
+    "babel-preset-react-app": "^9.1.2",
+    "prettier": "^2.0.4",
+    "typescript": "^3.8.3",
+    "yarn-upgrade-all": "^0.5.2"
   }
 }

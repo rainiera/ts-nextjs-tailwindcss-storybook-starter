@@ -1,19 +1,17 @@
-# ts-nextjs-tailwindcss-tslint-prettier-starter
+# ts-nextjs-tailwindcss-storybooks-starter
 
-![preview](https://i.imgur.com/WPnSRSk.png)
-
-An opinionated but unpretentious starter including
+A starter including
 
 - Next.js (with TypeScript)
   - A React framework that allows server-side rendering (compared to Create React App, which specializes in client-side rendering)
 - Tailwind CSS
   - Productive and maintainable CSS framework that uses utility classes heavily. Pairs quite well with the [Headwind](https://marketplace.visualstudio.com/items?itemName=heybourn.headwind) VS Code extension
-- tslint
-  - TODO replace this with eslint because it's been [deprecated](https://github.com/palantir/tslint/issues/4534)
+- eslint
 - prettier
-  - I have grown to not hate it
 - purgecss as a PostCSS plugin
   - Removes unused CSS in production, leading to smaller CSS bundles
+
+Dependencies last updated to latest versions on: 15 Apr 2020 ~9:30pm Pacific Time 😇 using [`yarn-upgrade-all`](https://github.com/tylerlong/yarn-upgrade-all)
 
 Also comes with examples
 
@@ -21,6 +19,7 @@ Also comes with examples
 - An overridden `_app` component that does necessary global CSS imports: from Google Fonts and Tailwind
 - A simple `Index` component that performs initial data population from a server hosted on [Dark](https://darklang.com/)
 - A "dumb" `Tag` component to demonstrate Tailwind utility classes
+- A small set of `storybook` stories for the `Tag` component
 
 Used with these related VS Code settings
 
@@ -37,6 +36,12 @@ Used with these related VS Code settings
 ## Setup
 
 ```
-npm install
-npm run dev
+yarn install
+yarn run dev
+```
+
+## Storybooks
+
+```
+yarn run storybook
 ```

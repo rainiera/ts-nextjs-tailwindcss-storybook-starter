@@ -3,10 +3,9 @@ module.exports = {
     fontFamily: {
       sans: ['IBM Plex Sans', '-apple-system'],
       serif: ['PT Serif', '-apple-system'],
-      mono: ['IBM Plex Mono', '-apple-system']
+      mono: ['IBM Plex Mono', '-apple-system'],
     },
-    extend: {}
+    extend: {},
   },
   variants: {},
-  plugins: []
 }
