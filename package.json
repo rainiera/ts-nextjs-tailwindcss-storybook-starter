@@ -1,5 +1,5 @@
 {
-  "name": "ts-nextjs-tailwindcss-tslint-prettier-starter",
+  "name": "ts-nextjs-tailwindcss-storybook-starter",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -11,15 +11,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rainiera/ts-nextjs-tailwindcss-tslint-prettier-starter.git"
+    "url": "git+https://github.com/rainiera/ts-nextjs-tailwindcss-storybook-starter.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "rainiera",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/rainiera/ts-nextjs-tailwindcss-tslint-prettier-starter/issues"
+    "url": "https://github.com/rainiera/ts-nextjs-tailwindcss-storybook-starter/issues"
   },
-  "homepage": "https://github.com/rainiera/ts-nextjs-tailwindcss-tslint-prettier-starter#readme",
+  "homepage": "https://github.com/rainiera/ts-nextjs-tailwindcss-storybook-starter#readme",
   "dependencies": {
     "@fullhuman/postcss-purgecss": "^2.1.2",
     "@storybook/cli": "^5.3.18",
