@@ -13,7 +13,7 @@ A starter including
 - purgecss as a PostCSS plugin
   - Removes unused CSS in production, leading to smaller CSS bundles
 
-Dependencies last updated to latest versions on: 15 Apr 2020 ~9:30pm Pacific Time 😇 using [`yarn-upgrade-all`](https://github.com/tylerlong/yarn-upgrade-all)
+Dependencies last updated to latest versions on: 27 Jul 2020 ~11:20pm Pacific Time 😇 using [`yarn-upgrade-all`](https://github.com/tylerlong/yarn-upgrade-all)
 
 Also comes with examples
 
